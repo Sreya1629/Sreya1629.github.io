@@ -20,7 +20,6 @@ The portfolio showcases:
 
 ## Live Website
 
-Add your portfolio link here:
 https://sreya1629.github.io
 
 ## Author
