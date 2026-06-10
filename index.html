@@ -24,10 +24,11 @@
         .hero p { color: var(--accent); font-size: 1.2rem; margin: 10px 0; }
         .hero img { width: 400px; height: 300px; object-fit: cover; border-radius: 20px; }
 
-        /* About Section */
+        /* About & Skills */
         .about-box { background: var(--card); padding: 40px; border-radius: 16px; margin: 40px 0; display: flex; align-items: center; gap: 40px; }
         .about-text { flex: 2; }
         .about-stats { flex: 1; display: flex; justify-content: space-between; text-align: center; color: #94a3b8; font-size: 0.8rem; }
+        .skill-pill { background: #1e293b; padding: 10px 20px; border-radius: 20px; border: 1px solid var(--accent); display: inline-block; margin-bottom: 10px; }
 
         /* Projects */
         .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 20px; }
@@ -51,7 +52,7 @@
     <nav>
         <h3>SREYA.</h3>
         <div class="nav-links">
-            <a href="#home">Home</a> <a href="#about">About</a> <a href="#projects">Projects</a> <a href="#contact">Contact</a>
+            <a href="#home">Home</a> <a href="#about">About</a> <a href="#skills">Skills</a> <a href="#projects">Projects</a> <a href="#contact">Contact</a>
         </div>
         <a href="resume.pdf" class="btn-resume" download>Download Resume</a>
     </nav>
@@ -75,6 +76,17 @@
             <div><p style="font-size: 1.5rem;">📍</p><p>India</p></div>
             <div><p style="font-size: 1.5rem;">📧</p><p>Open to<br>opportunities</p></div>
         </div>
+    </div>
+
+    <h2 id="skills">My Skills</h2>
+    <div style="margin: 20px 0 40px 0; display: flex; flex-wrap: wrap; gap: 10px;">
+        <span class="skill-pill">Python</span>
+        <span class="skill-pill">Machine Learning</span>
+        <span class="skill-pill">Deep Learning</span>
+        <span class="skill-pill">HTML/CSS</span>
+        <span class="skill-pill">JavaScript</span>
+        <span class="skill-pill">Gradio</span>
+        <span class="skill-pill">Hugging Face</span>
     </div>
 
     <h2 id="projects">My Projects</h2>
