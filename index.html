@@ -1,91 +1,149 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sreya | Portfolio</title>
-    <style>
-        :root { --bg: #0b0e14; --card: #111827; --accent: #8b5cf6; --text: #ffffff; }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; padding: 20px; }
-        .container { max-width: 1100px; margin: auto; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sreya | Portfolio</title><style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        /* Nav */
-        nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; }
-        .nav-links { display: flex; gap: 30px; color: #94a3b8; }
-        .btn-resume { border: 1px solid white; padding: 8px 20px; border-radius: 20px; text-decoration: none; color: white; font-size: 0.9rem; }
+body{
+    font-family: Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
 
-        /* Hero Section */
-        .hero { display: flex; align-items: center; justify-content: space-between; padding: 80px 0; gap: 40px; }
-        .hero-text { flex: 1; }
-        .hero h1 { font-size: 3.5rem; }
-        .hero p { color: var(--accent); font-size: 1.2rem; margin: 10px 0; }
-        /* Image styling for JPEG */
-        .hero img { width: 400px; height: 300px; object-fit: cover; border-radius: 20px; }
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+}
 
-        /* About Section */
-        .about-box { background: var(--card); padding: 40px; border-radius: 16px; margin: 40px 0; display: flex; align-items: center; gap: 40px; }
-        .about-text { flex: 2; }
-        .about-stats { flex: 1; display: flex; justify-content: space-between; text-align: center; color: #94a3b8; font-size: 0.8rem; }
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
 
-        /* Projects */
-        .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 20px; }
-        .project-card { background: var(--card); padding: 30px; border-radius: 16px; border: 1px solid #1e293b; }
-        .project-card h3 { margin-bottom: 10px; }
-        .project-card p { color: #94a3b8; font-size: 0.9rem; margin-bottom: 20px; }
-        .btn-github { background: #1e293b; padding: 8px 16px; border-radius: 8px; text-decoration: none; color: white; font-size: 0.8rem; }
+header p{
+    color:#38bdf8;
+    font-size:1.2rem;
+}
 
-        footer { text-align: center; padding: 40px; color: #475569; font-size: 0.9rem; }
-    </style>
-</head>
-<body>
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:40px 0;
+}
 
-<div class="container">
-    <nav>
-        <h3>SREYA.</h3>
-        <div class="nav-links">
-            <span>Home</span> <span>About</span> <span>Skills</span> <span>Projects</span> <span>Contact</span>
-        </div>
-        <a href="resume.pdf" class="btn-resume" download>Download Resume</a>
-    </nav>
+section{
+    margin-bottom:50px;
+}
 
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Hello, I'm Sreya</h1>
-            <p>Aspiring AI & ML Developer</p>
-            <p>I build intelligent web applications and machine learning models to solve real-world problems.</p>
-        </div>
-        <img src="developer.jpeg" alt="Sreya Illustration">
-    </section>
+h2{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
 
-    <div class="about-box">
-        <div class="about-text">
-            <h2>About Me</h2>
-            <p>I am a student passionate about Artificial Intelligence, Machine Learning and Web Development. I enjoy building real-world AI projects and full-stack web applications.</p>
-        </div>
-        <div class="about-stats">
-            <div><p style="font-size: 1.5rem;">🎓</p><p>Student</p></div>
-            <div><p style="font-size: 1.5rem;">📍</p><p>India</p></div>
-            <div><p style="font-size: 1.5rem;">📧</p><p>Open to<br>opportunities</p></div>
-        </div>
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.skill{
+    background:#1e293b;
+    padding:10px 20px;
+    border-radius:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:15px;
+}
+
+a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+}
+</style></head><body><header>
+    <h1>Hi, I'm Sreya 👋</h1>
+    <p>B.Tech Information Technology Student | Aspiring Cybersecurity Professional</p>
+</header><div class="container"><section>
+    <h2>About Me</h2>
+    <p>
+        I'm an Information Technology student with a growing interest in
+        Cybersecurity, Ethical Hacking, and emerging technologies.
+        I enjoy learning how technology works behind the scenes and exploring
+        ways to make digital systems more secure and reliable.
+    </p>
+</section><section>
+    <h2>What I'm Learning</h2>
+    <div class="skills">
+        <div class="skill">Cybersecurity Fundamentals</div>
+        <div class="skill">Network Security</div>
+        <div class="skill">Python</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">Web Development</div>
+        <div class="skill">Data Structures</div>
     </div>
-
-    <h2>My Projects</h2>
-    <div class="projects-grid">
-        <div class="project-card">
-            <h3>Fake News Detector</h3>
-            <p>An AI-powered web application that predicts whether a news article is real or fake.</p>
-            <a href="#" class="btn-github">GitHub</a>
-        </div>
-        <div class="project-card">
-            <h3>Personal Portfolio Website</h3>
-            <p>A responsive and modern portfolio website to showcase my skills and projects.</p>
-            <a href="#" class="btn-github">GitHub</a>
-        </div>
+</section><section>
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">C Programming</div>
+        <div class="skill">Problem Solving</div>
+        <div class="skill">Cybersecurity Basics</div>
+        <div class="skill">Team Collaboration</div>
     </div>
-
-    <footer>© 2026 Sreya | Built with passion</footer>
+</section><section>
+    <h2>Current Goals</h2><div class="card">
+    Strengthening my cybersecurity knowledge.
 </div>
 
-</body>
+<div class="card">
+    Exploring ethical hacking tools and techniques.
+</div>
+
+<div class="card">
+    Building projects that solve real-world problems.
+</div>
+
+</section><section>
+    <h2>Projects</h2><div class="card">
+    🚀 Portfolio Website
+</div>
+
+<div class="card">
+    🔒 Cybersecurity Projects (Coming Soon)
+</div>
+
+<div class="card">
+    💻 Python Projects (Coming Soon)
+</div>
+
+</section><section>
+    <h2>Connect With Me</h2><p>
+    LinkedIn:
+    <a href="https://www.linkedin.com/in/mary-sreya-552694384" target="_blank">
+        View Profile
+    </a>
+</p>
+
+<p>Email: sreyajoseph2007@gmail.com</p>
+
+</section></div><footer>
+    © 2026 Sreya | Portfolio
+</footer></body>
 </html>
