@@ -7,7 +7,7 @@ This is my personal portfolio website built using HTML and CSS and hosted with G
 The portfolio showcases:
 
 * My background as a B.Tech Information Technology student
-* My interest in Cybersecurity and Ethical Hacking
+* My interest in AI and ML development, and Cyber Security
 * Skills and technologies I'm learning
 * Current goals and projects
 * Contact information
